@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-6.0.1_r13" />
+           revision="refs/tags/android-6.0.1_r17" />
 
   <remote  name="github"
            fetch=".."
@@ -29,6 +29,7 @@
   <project path="bootable/recovery-cm" name="kbc-developers/android_cwm_recovery" groups="pdk" />
   <project path="bootable/recovery-twrp" name="kbc-developers/android_twrp_recovery" groups="pdk" revision="android-6.0" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="marshmallow-cts-release" remote="aosp" />
+  <project path="dalvik" name="CyanogenMod/android_dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="development" name="CyanogenMod/android_development" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/common" name="CyanogenMod/android_device_common" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/generic/arm64" name="CyanogenMod/android_device_generic_arm64" groups="pdk" />
@@ -317,7 +318,6 @@
 <!-- END CYANOGENMOD -->
 
 <!-- BEGIN AOSP -->
-  <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" />
   <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" />
   <project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" remote="aosp" />
