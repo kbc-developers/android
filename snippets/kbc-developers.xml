@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- KBC-developers additions -->
+  <project path="vendor/aojp" name="kbc-developers/android_vendor_aojp" >
+    <linkfile src="build.sh" dest="build.sh" />
+    <linkfile src="build_twrp.sh" dest="build_twrp.sh" />
+  </project>
+ 
+</manifest>

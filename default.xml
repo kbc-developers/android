@@ -557,11 +557,8 @@
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" remote="aosp" />
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" remote="aosp" />
 
-  <project path="vendor/aojp" name="kbc-developers/android_vendor_aojp" >
-    <copyfile src="build.sh" dest="build.sh" />
-    <copyfile src="build_twrp.sh" dest="build_twrp.sh" />
-  </project>
   <include name="snippets/lineage.xml" />
+   <include name="snippets/kbc-developers.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
