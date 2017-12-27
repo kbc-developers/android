@@ -6,5 +6,5 @@
     <linkfile src="build.sh" dest="build.sh" />
     <linkfile src="build_twrp.sh" dest="build_twrp.sh" />
   </project>
- 
+  <project path="bootable/recovery-twrp" name="kbc-developers/android_twrp_recovery" groups="pdk" revision="android-8.0" />
 </manifest>
