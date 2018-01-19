@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-  <!-- KBC-developers additions -->
+<!-- KBC-developers additions -->
   <project path="vendor/aojp" name="kbc-developers/android_vendor_aojp" >
     <linkfile src="build.sh" dest="build.sh" />
     <linkfile src="build_twrp.sh" dest="build_twrp.sh" />
   </project>
 <!-- for TWRP additions -->
-  <project path="bootable/recovery-twrp" name="kbc-developers/android_twrp_recovery" groups="pdk" revision="android-8.0" />
-  <project name="omnirom/android_external_busybox" path="external/busybox" remote="github" revision="android-8.0" />
+  <project path="bootable/recovery-twrp" name="kbc-developers/android_twrp_recovery" groups="pdk" revision="android-8.1" />
+  <project name="omnirom/android_external_busybox" path="external/busybox" remote="github" revision="android-8.1" />
 
 <!-- KBC-developers from LinageOS -->
   <remove-project path="android" name="LineageOS/android" />
