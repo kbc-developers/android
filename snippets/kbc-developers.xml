@@ -13,10 +13,10 @@
   <remove-project path="android" name="LineageOS/android" />
   <project path="android" name="kbc-developers/android" />
 
-<!--
+
   <remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
-  <project path="vendor/lineage" name="kbc-developers/android_vendor_lineage" />
--->
+  <project path="vendor/lineage" name="kbc-developers/android_vendor_lineage" revision="lineage-15.1"/>
+
   
 <!--
   <remove-project path="hardware/qcom/audio/default" name="LineageOS/android_hardware_qcom_audio" />
@@ -26,5 +26,5 @@
   <project path="hardware/qcom/media" name="kbc-developers/android_hardware_qcom_media" groups="qcom,pdk" />
 -->
   <remove-project path="packages/apps/Nfc" name="LineageOS/android_packages_apps_Nfc" />
-  <project path="packages/apps/Nfc" name="kbc-developers/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" revision="lineage-15.0"/>
+  <project path="packages/apps/Nfc" name="kbc-developers/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" revision="lineage-15.1"/>
 </manifest>
