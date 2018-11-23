@@ -15,10 +15,10 @@
   <remove-project path="android" name="LineageOS/android" />
   <project path="android" name="kbc-developers/android" />
 
-<!--
+
   <remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
   <project path="vendor/lineage" name="kbc-developers/android_vendor_lineage"/>
--->
+
   
 <!--
   <remove-project path="hardware/qcom/audio/default" name="LineageOS/android_hardware_qcom_audio" />
